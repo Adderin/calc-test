@@ -12,5 +12,4 @@ public class CalculateFormulaRequest {
     @Schema(description = "formula")
     @NotNull
     private String formula;
-
 }

@@ -36,7 +36,7 @@ class CalcApplicationTests {
         String url = "http://localhost:" + port;
         URI uri = UriComponentsBuilder.fromHttpUrl(url).path("/calculate").build().toUri();
 
-        final ResponseEntity<CalculateResponse> response = this.restTemplate.postForEntity(uri, calculateFormulaRequest, CalculateResponse.class);
+        final ResponseEntity<CalculateResponse> response = restTemplate.postForEntity(uri, calculateFormulaRequest, CalculateResponse.class);
 
         //Assert
         assertNotNull(response);

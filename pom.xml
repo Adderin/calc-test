@@ -15,8 +15,8 @@
     <description>Test project</description>
     <properties>
         <version.java>11</version.java>
-
         <version.lombok>1.18.16</version.lombok>
+        <version.springdoc-openapi-ui>1.5.2</version.springdoc-openapi-ui>
     </properties>
 
     <!-- SpringBoot -->
@@ -38,7 +38,7 @@
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
-            <version>1.5.2</version>
+            <version>${version.springdoc-openapi-ui}</version>
         </dependency>
     </dependencies>
 
