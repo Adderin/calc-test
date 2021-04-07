@@ -1,13 +1,14 @@
-- [x] Used: SpringBoot, JDK11, OpenApi, Lombok
+### Used: SpringBoot, JDK11, OpenApi, Lombok
 
-- [x] Endpoint to call: `localhost:8088/calculate`
+### Endpoint to call: 
+`localhost:8088/calculate`
 
-- [x] Sample request:
+### Sample request:
 `{
     "formula": "(12+2)/2 - 8"
 }`
 
-- [x] Sample result:
+### Sample response:
 `{
     "result": "-1"
 }`
