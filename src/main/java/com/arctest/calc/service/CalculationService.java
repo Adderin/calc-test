@@ -72,8 +72,9 @@ public class CalculationService {
 
         if (chars[index] == '+' || chars[index] == '-' || chars[index] == '*' || chars[index] == '/') {
 
-            while (!operations.empty() && hasPrecedence(chars[index], operations.peek()))
+            while (!operations.empty() && hasPrecedence(chars[index], operations.peek())) {
                 values.push(applyOperation(operations.pop(), values.pop(), values.pop()));
+            }
         }
     }
 
